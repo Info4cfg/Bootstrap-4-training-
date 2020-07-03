@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Adhoc</title>
+</head>
+
+<body>
+  <!-- Navbar Component -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/logo.png" alt="adhoc logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Our team</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid" style="background:url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
+   <div class="p-3 mb-2 bg-secondary text-white">
+     <h1 class="text-light text-center my-5 display-4 font-weight-normal"> Adhoc made life easy</h1>
+     <p class="text-light text-center mx-auto">Everything is possible</p>
+    </div>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <!-- Quote Section -->
+    <div class="row">
+      <div class="col">
+        <h2 class="font-italic text-right font-weight-light">"Thanks to ADHOC we now have beautiful and faithful service every
+          day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h2>
+      </div>
+    </div>
+    <hr>
+
+    <!-- Why Adhoc? Text -->
+    <div class="row mx-md-n5">
+      <div class="col">
+        <h2 class="text-center header display-4">Why Adhoc?</h2>
+      </div>
+    </div>
+
+      
+    <!-- Image Reasons Section -->
+      <div class="card-group">
+        <div class="card">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/experienced.png" class="card-img-top" alt="experinced icon">
+          <div class="card-body">
+            <h3 class="card-title">Our work</h3>
+            <p class="card-text text-center font-italic">Over 9000 customers in the world</p>
+             <a href="#" class="btn btn-primary text-center">Main</a>
+          </div>
+      </div>
+          <div class="card">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/fun.png" class="card-img-top" alt="fun">
+          <div class="card-body">
+            <h3 class="card-titile">Make Web great again!</h3>
+            <p class="card-text text-center font-italic">We have a really profiency team</p>
+            <a href="#" class="btn btn-primary text-center">Main</a>
+      </div>
+    </div>
+      <div class="card">
+        <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/smart.png" class="card-img-top" alt="smart">
+        <div class="card-body">
+          <h3 class="card-title">New Ideas</h3>
+          <p class="card-text text-center font-italic">Technologies & Industries</p>
+          <a href="#" class="btn btn-primary text-center">Main</a>
+        </div>
+        </div>
+
+  
+  
+
+        <!-- Third card goes here -->
+
+    </div>
+
+    <!-- Meet the Team Section -->
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center display-4 p-3 mb-2 bg-dark text-white">Our Clients</h2>
+  
+      </div>
+    </div>
+
+    <!-- Team Pictures Carousel -->
+    <div class="row">
+      <div class="col">
+        <!-- Carousel Component -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.dw.com/image/51827358_303.jpg" class="d-block w-100" alt="Germany">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>German</h5>
+                  <p>Over 2000 happy clients</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.nato-pa.int/sites/default/files/styles/915/public/2018-05/PR%20110518%20E%20-%20%20Norway%20.JPG" class="d-block w-100" alt="Norway">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Norway</h5>
+                  <p>Over 3000 happy clients</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTSz-D88vRAnq7ma2tSlFNvDT_X3npetUu-NA&usqp=CAU" class="d-block w-100" alt="USA">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>USA</h5>
+                  <p>About 1000 happy clients</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="China">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5>China</h5>
+                  <p>Over 3000 happy clients</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Footer -->
+  <footer>2020 Adhoc &copy;</footer>
+
+  <!-- Bootstrap's JavaScript Files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
